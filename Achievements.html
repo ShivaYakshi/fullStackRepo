@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Achievements and Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Navbar styles */
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            text-align: right;
+        }
+
+        ul {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            display: inline;
+            padding: 0 10px;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        /* Section styles */
+        .content {
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .section {
+            margin-bottom: 80px;
+        }
+
+        .achievement, .project {
+            background-color: white;
+            border: 1px solid black;
+            width: 300px;
+            display: inline-block;
+            margin: 20px;
+            text-align: left;
+        }
+
+        .achievement img, .project img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .achievement p, .project p {
+            padding: 10px;
+        }
+
+        /* Footer styles */
+        .footer {
+            width: 100%;
+            height: 30px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        /* Hover effect */
+        .achievement p:hover, .project p:hover {
+            background-color: black;
+            color: white;
+        }
+
+        /* Project details styles */
+        .project-details {
+            padding: 10px;
+        }
+
+        .technologies-used {
+            padding-left: 20px;
+            
+            color: black;
+        }
+.technologies-used li{
+	display:block;
+	list-style-type: disc;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a> |</li>
+            <li><a href="Achievements.html">Achievements</a> |</li>
+                   </ul>
+    </div>
+
+    <div class="content">
+
+        <!-- Achievements Section -->
+        <div class="section">
+            <h1>Achievements</h1>
+            <div class="achievement">
+                <img src="python.png" alt="Python Certificate">
+                <p>I gained proficiency in Python's core concepts such as variables, loops, functions, and conditionals. This knowledge empowered me to automate tasks and analyze data effectively.</p>
+            </div>
+            <div class="achievement">
+                <img src="Arduino.png" alt="Arduino Certificate">
+                <p>Certification in Arduino covers microcontroller programming and hardware interfacing, essential for IoT and embedded systems development.</p>
+            </div>
+            <div class="achievement">
+                <img src="IOT.png" alt="IoT Certificate">
+                <p>This certificate equips learners with essential skills in IoT, covering sensor integration, data processing, and cloud connectivity.</p>
+            </div>
+            <div class="achievement">
+                <img src="C.png" alt="C Programming Certificate">
+                <p>I learned variables, data types, control structures, and functions in C, which equips me to develop efficient and reliable software solutions.</p>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h1>Projects</h1>
+
+            <div class="project">
+                <img src="project1.png" alt="Project 1 Screenshot">
+                <div class="project-details">
+                    <h3>Mobile Shop Management System</h3>
+                    <p>A C# and MySQL-based system for managing phone records, customer information, and secure logins in a mobile retail environment.</p>
+                    <p><strong>Technologies Used:</strong></p>
+                    <ul class="technologies-used">
+                        <li>C#, Visual Studio</li>
+                        <li>MySQL</li>
+                        <li>WinForms</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project2.png" alt="Project 2 Screenshot">
+                <div class="project-details">
+                    <h3>Course Registration System</h3>
+                    <p>Developed a PHP-based web module that allows students to register for courses, ensuring seamless course enrollment.</p>
+                    <p><strong>Technologies Used:</strong></p>
+                    <ul class="technologies-used">
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project3.png" alt="Project 3 Screenshot">
+                <div class="project-details">
+                    <h3>IoT Home Automation</h3>
+                    <p>Designed a smart home system that controls lighting and appliances through IoT-enabled sensors and devices.</p>
+                    <p><strong>Technologies Used:</strong></p>
+                    <ul class="technologies-used">
+                        <li>Arduino</li>
+                        <li>Raspberry Pi</li>
+                        <li>MQTT & Cloud Integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; Yakshika Sivaperumal
+    </div>
+
+</body>
+</html>
